@@ -3,7 +3,6 @@
     "description": "laravel tracesql",
     "type": "library",
     "require": {
-        "shallowman/laralog": "1.1.3"
     },
     "license": "MIT",
     "authors": [
@@ -16,12 +15,6 @@
     "autoload":{
         "psr-4":{
             "TraceSql\\":"src/"
-        }
-    },
-    "repositories": {
-        "packagist": {
-            "type": "composer",
-            "url": "https://mirrors.aliyun.com/composer/"
         }
     }
 }
